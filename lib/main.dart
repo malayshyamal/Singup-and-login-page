@@ -171,28 +171,30 @@ class LoginTab extends StatelessWidget {
           TextField(
             controller: username,
             decoration: InputDecoration(
+              contentPadding: EdgeInsets.symmetric(vertical: 10),
                 enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                     borderSide: BorderSide(color: textFieldColor)),
                 prefixIcon: Icon(
-                  Icons.person,
+                  Icons.person,size: 20,
                   color: textFieldColor,
                 ),
                 labelStyle: TextStyle(color: textFieldColor),
                 labelText: 'username'),
           ),
           SizedBox(
-            height: 10,
+            height: 20,
           ),
           TextField(
             controller: password,
             decoration: InputDecoration(
+                contentPadding: EdgeInsets.symmetric(vertical: 10),
                 enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                     borderSide: BorderSide(color: textFieldColor)),
                 labelText: 'password',
                 prefixIcon: (Icon(
-                  Icons.lock,
+                  Icons.lock,size: 20,
                   color: textFieldColor,
                 )),
                 labelStyle: TextStyle(color: textFieldColor)),
@@ -220,44 +222,47 @@ class SignUp extends StatelessWidget {
           TextField(
             controller: username,
             decoration: InputDecoration(
+                contentPadding: EdgeInsets.symmetric(vertical: 10),
                 enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                     borderSide: BorderSide(color: textFieldColor)),
                 labelText: 'username',
                 prefixIcon: (Icon(
-                  Icons.person,
+                  Icons.person,size: 20,
                   color: textFieldColor,
                 )),
                 labelStyle: TextStyle(color: textFieldColor)),
           ),
           SizedBox(
-            height: 10,
+            height: 20,
           ),
           TextField(
             controller: username,
             decoration: InputDecoration(
+                contentPadding: EdgeInsets.symmetric(vertical: 10),
                 enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                     borderSide: BorderSide(color: textFieldColor)),
                 labelText: 'email',
                 prefixIcon: (Icon(
-                  Icons.email,
+                  Icons.email,size: 20,
                   color: textFieldColor,
                 )),
                 labelStyle: TextStyle(color: textFieldColor)),
           ),
           SizedBox(
-            height: 10,
+            height: 20,
           ),
           TextField(
             controller: username,
             decoration: InputDecoration(
+                contentPadding: EdgeInsets.symmetric(vertical: 10),
                 enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                     borderSide: BorderSide(color: textFieldColor)),
                 labelText: 'password',
                 prefixIcon: (Icon(
-                  Icons.lock,
+                  Icons.lock,size: 20,
                   color: textFieldColor,
                 )),
                 labelStyle: TextStyle(color: textFieldColor)),
